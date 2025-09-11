@@ -53,3 +53,18 @@ button:hover { transform: translateY(-1px); }
   pointer-events: none;
 }
 .toast.show { opacity: 1; }
+.footer {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer button {
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  cursor: pointer;
+}
