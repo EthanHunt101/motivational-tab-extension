@@ -1,10 +1,27 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>New Tab</title>
-    </head>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Motivational Tab</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main id="app" role="main">
+    <figure class="quote">
+      <blockquote id="quoteText" aria-live="polite">Loading…</blockquote>
+      <figcaption id="quoteAuthor"></figcaption>
+    </figure>
 
-    <body>
-        
-    </body>
+    <div class="controls">
+      <button id="copyBtn" type="button" aria-label="Copy quote">Copy</button>
+      <button id="nextBtn" type="button" aria-label="Next quote">Next</button>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  </main>
+
+  <script src="newtab.js" defer></script>
+</body>
+
 </html>
