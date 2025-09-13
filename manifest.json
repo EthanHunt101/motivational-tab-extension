@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Motivational Spark",
+  "name": "MoTABational",
   "version": "1.0.0",
   "description": "Shows a small motivational notification whenever you open a new tab.",
   "permissions": ["notifications", "tabs", "storage"],
