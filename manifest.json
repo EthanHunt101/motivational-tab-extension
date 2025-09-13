@@ -1,14 +1,18 @@
 {
   "manifest_version": 3,
-  "name": "Motivational Tab",
+  "name": "Motivational Spark",
   "version": "1.0.0",
-  "description": "Replaces the New Tab with a clean motivational quote.",
-  "chrome_url_overrides": {
-    "newtab": "newtab.html"
+  "description": "Shows a small motivational notification whenever you open a new tab.",
+  "permissions": ["notifications", "tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
   },
   "icons": {
     "16": "assets/icon16.png",
     "48": "assets/icon48.png",
     "128": "assets/icon128.png"
+  },
+  "action": {
+    "default_title": "Motivational Spark"
   }
 }
