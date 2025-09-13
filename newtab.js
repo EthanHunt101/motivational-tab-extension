@@ -84,10 +84,7 @@ async function copyCurrentQuote() {
 }
 
 function openBlankPageNewTab() {
-  // New tab (recommended)
-  window.open("about:blank", "_blank", "noopener,noreferrer");
-  // If you prefer same tab, use:
-  // window.location.href = "about:blank";
+  window.open("chrome://newtab/", "_blank", "noopener,noreferrer");
 }
 
 // ---------- EVENT WIRING ----------
