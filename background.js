@@ -57,7 +57,7 @@ async function maybeShowNotificationForTab(tab) {
   chrome.notifications.create({
     type: "basic",
     iconUrl: "assets/icon128.png",
-    title: "Motivational Spark",
+    title: "MoTABational",
     message: `${q.text}${author}`
   }, () => {
     // Auto-close after ~5s on most platforms; if you want guaranteed timeout on Windows:
